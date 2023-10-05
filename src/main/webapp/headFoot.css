@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #17273D;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.overlay__content a {
+  font-family: "Lucida Console", monospace;
+  font-weight: 500;
+  color: #EDEFFE;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #A7D5E5;
+  padding: 0px 10px;
+  font-size:14px;
+}
+
+.active-link{
+	background-color: #3D5872;
+  	color: #17273D;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #17273D;
+}
+
+.logo {
+  margin-right: auto;
+}
+.bottom__links {
+  list-style: none;
+  display: flex;
+}
+
+.bottom__links a,
+.overlay__content a {
+  font-family: "Lucida Console", monospace;
+  font-weight: 500;
+  color: #EDEFFE;
+  text-decoration: none;
+}
+
+.bottom__links li {
+  padding: 0px 20px;
+}
+
+.bottom__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.bottom__links li a:hover {
+  color: #A7D5E5;
+}
+
+#copy{
+  font-family: "Lucida Console", monospace;
+  font-weight: 500;
+  color: #EDEFFE;
+  text-decoration: none;
+  margin-right:auto;
+}

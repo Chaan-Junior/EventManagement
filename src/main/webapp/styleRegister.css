@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+#details{
+	text-align:center;
+	font-family:"Lucida Console", monospace;
+	margin-top: 40px;
+	margin-bottom:40.5px;
+}
+
+
+#details label {
+	display: inline-block;
+	text-align:left;
+}
+
+#details input[type="text"] {
+  width: 300px;
+  padding: 4.5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 1px;
+}
+
+#details input[type="password"] {
+  width: 300px;
+  padding: 4.5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 1px;
+}
+
+#details input[type="submit"] {
+  padding: 10px 12px;
+  background-color: #008080;
+  font-family:"Lucida Console", monospace;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#details input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+
+input[type="button1"]{
+	text-align:center;
+	font-family:"Lucida Console", monospace;
+	padding: 10px 11px;
+  	background-color: #008080;
+  	color: #ffffff;
+  	border-radius: 8px;
+  	cursor: pointer;
+}
+input[type="button1"]:hover {
+  transform: scale(1.1);
+}
+
+input[type="button2"]{
+	text-align:center;
+	font-family:"Lucida Console", monospace;
+	padding: 10px 11px;
+  	background-color: #ff0000;
+  	color: #ffffff;
+  	border-radius: 8px;
+  	cursor: pointer;
+}
+input[type="button2"]:hover {
+  transform: scale(1.1);
+}
+
+
